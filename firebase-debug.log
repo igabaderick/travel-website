@@ -1,0 +1,192 @@
+[debug] [2025-04-23T19:05:52.156Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T19:05:52.159Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ECO F\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2025-04-23T19:05:52.159Z] CLI Version:   14.2.0
+[debug] [2025-04-23T19:05:52.160Z] Platform:      win32
+[debug] [2025-04-23T19:05:52.160Z] Node Version:  v20.19.0
+[debug] [2025-04-23T19:05:52.160Z] Time:          Wed Apr 23 2025 22:05:52 GMT+0300 (East Africa Time)
+[debug] [2025-04-23T19:05:52.160Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-23T19:05:52.372Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-23T19:05:52.373Z] > authorizing via signed-in user (igabaderickgideon@gmail.com)
+[debug] [2025-04-23T19:05:52.375Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:05:52.375Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:05:52.377Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-04-23T19:05:53.296Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-23T19:05:53.296Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-04-23T19:10:23.516Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T19:10:23.519Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ECO F\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2025-04-23T19:10:23.520Z] CLI Version:   14.2.0
+[debug] [2025-04-23T19:10:23.520Z] Platform:      win32
+[debug] [2025-04-23T19:10:23.520Z] Node Version:  v20.19.0
+[debug] [2025-04-23T19:10:23.520Z] Time:          Wed Apr 23 2025 22:10:23 GMT+0300 (East Africa Time)
+[debug] [2025-04-23T19:10:23.520Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-23T19:10:23.769Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-23T19:10:23.770Z] > authorizing via signed-in user (igabaderickgideon@gmail.com)
+[debug] [2025-04-23T19:10:23.771Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:10:23.771Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:10:23.774Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-04-23T19:10:24.664Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-23T19:10:24.665Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-04-23T19:15:56.569Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T19:15:56.578Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ECO F\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-04-23T19:15:56.578Z] CLI Version:   14.2.0
+[debug] [2025-04-23T19:15:56.578Z] Platform:      win32
+[debug] [2025-04-23T19:15:56.578Z] Node Version:  v20.19.0
+[debug] [2025-04-23T19:15:56.579Z] Time:          Wed Apr 23 2025 22:15:56 GMT+0300 (East Africa Time)
+[debug] [2025-04-23T19:15:56.579Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-23T19:15:56.819Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-23T19:15:56.819Z] > authorizing via signed-in user (igabaderickgideon@gmail.com)
+[debug] [2025-04-23T19:15:56.819Z] [iam] checking project travel-website-2abbc for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-04-23T19:15:56.821Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:15:56.822Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:15:56.823Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions [none]
+[debug] [2025-04-23T19:15:56.823Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions x-goog-quota-user=projects/travel-website-2abbc
+[debug] [2025-04-23T19:15:56.823Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-04-23T19:15:58.636Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions 200
+[debug] [2025-04-23T19:15:58.636Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-04-23T19:15:58.636Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:15:58.636Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:15:58.637Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/travel-website-2abbc/serviceAccounts/travel-website-2abbc@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-04-23T19:15:58.637Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/travel-website-2abbc/serviceAccounts/travel-website-2abbc@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-04-23T19:16:00.759Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/travel-website-2abbc/serviceAccounts/travel-website-2abbc@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-04-23T19:16:00.759Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/travel-website-2abbc/serviceAccounts/travel-website-2abbc@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-04-23T19:16:00.760Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:00.760Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:00.761Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/travel-website-2abbc [none]
+[debug] [2025-04-23T19:16:01.833Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/travel-website-2abbc 200
+[debug] [2025-04-23T19:16:01.833Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/travel-website-2abbc {"projectId":"travel-website-2abbc","projectNumber":"298691177292","displayName":"travel website","name":"projects/travel-website-2abbc","resources":{"hostingSite":"travel-website-2abbc","realtimeDatabaseInstance":"travel-website-2abbc-default-rtdb"},"state":"ACTIVE","etag":"1_7517a5f1-34c4-439a-9544-c5b51ed46e05"}
+[debug] [2025-04-23T19:16:04.959Z] defaultcredentials: writing to file C:\Users\ECO F\AppData\Roaming\firebase\igabaderickgideon_gmail_com_application_default_credentials.json
+[debug] [2025-04-23T19:16:04.963Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:04.964Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:04.964Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites pageToken=&pageSize=10
+[debug] [2025-04-23T19:16:07.678Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites 200
+[debug] [2025-04-23T19:16:07.679Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites {"sites":[{"name":"projects/travel-website-2abbc/sites/travel-website-2abbc","defaultUrl":"https://travel-website-2abbc.web.app","appId":"1:298691177292:web:6c86ceb932742074fefde9","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-23T19:16:07.679Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:07.679Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:07.679Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:298691177292:web:6c86ceb932742074fefde9/config [none]
+[debug] [2025-04-23T19:16:22.945Z] ----------------------------------------------------------------------
+[debug] [2025-04-23T19:16:22.953Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ECO F\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-04-23T19:16:22.953Z] CLI Version:   14.2.0
+[debug] [2025-04-23T19:16:22.954Z] Platform:      win32
+[debug] [2025-04-23T19:16:22.954Z] Node Version:  v20.19.0
+[debug] [2025-04-23T19:16:22.954Z] Time:          Wed Apr 23 2025 22:16:22 GMT+0300 (East Africa Time)
+[debug] [2025-04-23T19:16:22.954Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-23T19:16:23.266Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-23T19:16:23.267Z] > authorizing via signed-in user (igabaderickgideon@gmail.com)
+[debug] [2025-04-23T19:16:23.267Z] [iam] checking project travel-website-2abbc for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-04-23T19:16:23.269Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:23.269Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:23.270Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions [none]
+[debug] [2025-04-23T19:16:23.271Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions x-goog-quota-user=projects/travel-website-2abbc
+[debug] [2025-04-23T19:16:23.271Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-04-23T19:16:24.978Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions 200
+[debug] [2025-04-23T19:16:24.978Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-website-2abbc:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-04-23T19:16:24.980Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:24.980Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:24.980Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/travel-website-2abbc/serviceAccounts/travel-website-2abbc@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-04-23T19:16:24.981Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/travel-website-2abbc/serviceAccounts/travel-website-2abbc@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-04-23T19:16:26.897Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/travel-website-2abbc/serviceAccounts/travel-website-2abbc@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-04-23T19:16:26.898Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/travel-website-2abbc/serviceAccounts/travel-website-2abbc@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-04-23T19:16:26.898Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:26.898Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:26.899Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/travel-website-2abbc [none]
+[debug] [2025-04-23T19:16:27.540Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/travel-website-2abbc 200
+[debug] [2025-04-23T19:16:27.540Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/travel-website-2abbc {"projectId":"travel-website-2abbc","projectNumber":"298691177292","displayName":"travel website","name":"projects/travel-website-2abbc","resources":{"hostingSite":"travel-website-2abbc","realtimeDatabaseInstance":"travel-website-2abbc-default-rtdb"},"state":"ACTIVE","etag":"1_7517a5f1-34c4-439a-9544-c5b51ed46e05"}
+[debug] [2025-04-23T19:16:32.298Z] defaultcredentials: writing to file C:\Users\ECO F\AppData\Roaming\firebase\igabaderickgideon_gmail_com_application_default_credentials.json
+[debug] [2025-04-23T19:16:32.308Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:32.308Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:32.311Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites pageToken=&pageSize=10
+[debug] [2025-04-23T19:16:34.691Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites 200
+[debug] [2025-04-23T19:16:34.691Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites {"sites":[{"name":"projects/travel-website-2abbc/sites/travel-website-2abbc","defaultUrl":"https://travel-website-2abbc.web.app","appId":"1:298691177292:web:6c86ceb932742074fefde9","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-23T19:16:34.692Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:34.692Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:34.692Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:298691177292:web:6c86ceb932742074fefde9/config [none]
+[debug] [2025-04-23T19:16:35.656Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:298691177292:web:6c86ceb932742074fefde9/config 200
+[debug] [2025-04-23T19:16:35.656Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:298691177292:web:6c86ceb932742074fefde9/config {"projectId":"travel-website-2abbc","appId":"1:298691177292:web:6c86ceb932742074fefde9","databaseURL":"https://travel-website-2abbc-default-rtdb.firebaseio.com","storageBucket":"travel-website-2abbc.firebasestorage.app","apiKey":"AIzaSyA6YlPjcMeVTzan8LCeHGJQK6I1k24C36Q","authDomain":"travel-website-2abbc.firebaseapp.com","messagingSenderId":"298691177292","measurementId":"G-5JRT355TXR"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-04-23T19:16:47.137Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:47.137Z] Checked if tokens are valid: true, expires at: 1745437480012
+[debug] [2025-04-23T19:16:47.138Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites/travel-website-2abbc [none]
+[debug] [2025-04-23T19:16:49.456Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites/travel-website-2abbc 200
+[debug] [2025-04-23T19:16:49.456Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/travel-website-2abbc/sites/travel-website-2abbc {"name":"projects/travel-website-2abbc/sites/travel-website-2abbc","defaultUrl":"https://travel-website-2abbc.web.app","appId":"1:298691177292:web:6c86ceb932742074fefde9","type":"DEFAULT_SITE"}
+[info]   ▲ Next.js 14.2.28
+
+[info]   - Environments: .env.local, .env
+  - Experiments (use with caution):
+    · webpackBuildWorker
+    · parallelServerCompiles
+    · parallelServerBuildTraces
+
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Skipping validation of types
+   Skipping linting
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/29) ...
+
+[info]    Generating static pages (7/29) 
+
+[info]    Generating static pages (14/29) 
+
+[info]    Generating static pages (21/29) 
+
+[info] Error initializing Firebase: [O [FirebaseError]: Missing or insufficient permissions.] {
+  code: 'permission-denied',
+  customData: undefined,
+  toString: [Function (anonymous)]
+}
+
+[info] [O [FirebaseError]: Missing or insufficient permissions.] {
+  code: 'permission-denied',
+  customData: undefined,
+  toString: [Function (anonymous)],
+  digest: '2210890922'
+}
+
+[info] [O [FirebaseError]: Missing or insufficient permissions.] {
+  code: 'permission-denied',
+  customData: undefined,
+  toString: [Function (anonymous)],
+  digest: '2210890922'
+}
+
+[info] [O [FirebaseError]: Missing or insufficient permissions.] {
+  code: 'permission-denied',
+  customData: undefined,
+  toString: [Function (anonymous)],
+  digest: '2210890922'
+}
+
+[info] 
+Error occurred prerendering page "/admin/tours". Read more: https://nextjs.org/docs/messages/prerender-error
+
+
+[info] FirebaseError: Missing or insufficient permissions.
+
+[info]  ✓ Generating static pages (29/29)
+
+[info] 
+
+[info] > Export encountered errors on following paths:
+	/admin/tours/page: /admin/tours
+
+[debug] [2025-04-23T19:18:28.642Z] Error: ENOENT: no such file or directory, open 'C:\Users\ECO F\Desktop\new\travel-website\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
